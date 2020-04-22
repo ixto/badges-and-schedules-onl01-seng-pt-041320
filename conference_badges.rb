@@ -32,7 +32,10 @@
 #   end
 # end
 
-
+ def badge_maker(name)
+   puts "Hello, my name is #{name}."
+   "Hello, my name is Arel."
+end
 
 def batch_badge_creator(array)
  new_array = []
@@ -40,6 +43,7 @@ def batch_badge_creator(array)
    new_array.push("Hello, my name is #{name}.")
   end
  return new_array
+ 
  end
  
-end
+ 
