@@ -51,7 +51,7 @@ def batch_badge_creator(array)
    room = 1 
    array.each do |name|
      new_array.push("Hello, #{name}! You'll be assigned to room #{room}!")
-     count += 1 
+     room += 1 
    end
     return new_array
   end
