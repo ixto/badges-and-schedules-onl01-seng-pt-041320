@@ -16,4 +16,18 @@ def assign_rooms(attendees)
   new_array =[]
   room = 1 
   attendees.each do |name|
-    new_array.push("Hello, #{name}! You'll be assigned to room")
+    new_array.push("Hello, #{name}! You'll be assigned to room #{room}!")
+    room += 1 
+  end
+  return new_arry
+end
+
+def printer(attendees)
+  new_array =[]
+  room = 1 
+  attenddes.each do |name|
+    puts ("Hello, my name is #{name}.")
+    puts ("Hello, #{name}! You'll be assigned to room #{room}!")
+    room += 1 
+  end
+end
