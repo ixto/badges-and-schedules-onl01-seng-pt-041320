@@ -65,4 +65,7 @@ def batch_badge_creator(array)
     end
   end
   
-  array.each 
+  # array.each_with_index |attendees, i|
+  # new_array.push ("Hello, #{name}! You'll be assigned to room #{room + 1}!")
+  # return new_array
+  
