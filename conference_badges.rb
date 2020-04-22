@@ -52,15 +52,17 @@ def batch_badge_creator(array)
    array.each do |name|
      new_array.push("Hello, #{name}! You'll be assigned to room #{room}!")
      room += 1 
-   end
-    return new_array
   end
+    return new_array
+ end
   
   def printer(array)
     batch_badge_creator(array).each do |phrase|
       puts phrase
     end
-    assign_rooms(array).each do |phrase|
+      assign_rooms(array).each do |phrase|
       puts phrase
     end
   end
+  
+  array.each do {||
