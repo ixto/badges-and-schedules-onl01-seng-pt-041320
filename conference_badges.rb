@@ -36,4 +36,4 @@
 
 def assign_room(list)
   room =[]
-  list.each_with_index {|name, I| room << "Hello"
+  list.each_with_index {|name, I| room << "Hello, #{name}"
